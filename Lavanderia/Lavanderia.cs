@@ -16,7 +16,6 @@ namespace Lavanderia
             { 4, new Asciugatrice() },
             { 5, new Asciugatrice() },
         };
-        public static HashSet<int> Numeri { get; set; } = new HashSet<int>() { 1, 2, 3, 1 };
 
         public static void Simula(int minuti)
         {
